@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Noto+Sans+SC:wght@100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Marcellus SC";
+}
+
+@font-face {
+    font-family: "valorant";
+    src: url(../asst/Valorant\ Font.ttf);
+}
+
+.banner
+{
+    background-image: url(../asst/442152.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 110vh;
+    background-repeat: no-repeat;
+}
+
+.title
+{
+    justify-content: center;
+    font-size: 130px;
+    color: black;
+    padding-top: 25%;
+    display: flex;
+    font-family: "valorant";
+}
+
+.banner-2
+{
+    background-image: url(../asst/601814.jpg);
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+}
+
+.maps
+{
+    font-size: 15px;
+    color: black;
+    padding-top: 7%;
+    display: flex;
+    padding-left: 5%;
+    text-decoration: wavy;
+}
+
+.info
+{
+    font-size: 70px;
+    display: flex;
+    color: red;
+    padding-top: 3%;
+    justify-content: center;
+    padding-left: 20%;
+    font-weight: bold;
+}
+
+.text-1
+{
+    font-size: 20px;
+    color: black;
+    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+    padding-left: 24%;
+    font-weight: bold;
+}
+
+.banner-3
+{
+    background-image: url(../asst/596737.jpg);
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+}
+.info-2
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 25%;
+}
+
+.info-2 a
+{
+    font-size: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+.info-2, .b
+{
+    color: red;
+}
+
+.info-2, .w
+{
+    color: aliceblue;
+}
+
+.info-2, .r
+{
+    color: blue;
+}
+
+.banner-4
+{
+    background-image: url(../asst/1066398.jpg);
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+}
+
+.requitment
+{
+    justify-content: center;
+    font-size: 70px;
+    color: black;
+    padding-top: 8%;
+    display: flex;
+    
+}   
+
+.check
+{
+    padding-top: 12%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.check a
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: black;
+    width: 120px;
+    height: 35px;
+    padding-top: 10px;
+    border-radius: 20%;
+
+}
+

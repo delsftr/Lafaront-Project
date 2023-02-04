@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Noto+Sans+SC:wght@100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Marcellus SC";
+}
+
+.banner
+{
+    
+    background-image: url(../asst/712326.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 92vh;
+}
+
+.register
+{
+    padding-top: 15%;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    display: flex;
+}
+    
+.form
+{
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    display: flex;
+}
+

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Noto+Sans+SC:wght@100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Marcellus SC";
+}
+
+.banner-3
+{
+    background-image: url(../asst/596737.jpg);
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+}
+
+.slider-container
+{
+    overflow: hidden;
+    width: 75vh;
+    height: 50vh;
+}
+.slider
+{
+    height: 100%;
+    display: flex ;
+}
+
+.slider-image
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: -75vh;
+}
+
+.slider-image img
+{
+    height: 100%;
+    object-fit: contain;
+}
+
+
